@@ -1,4 +1,4 @@
-package com.realstate;
+package com.realstate.entities;
 
 import com.realstate.entities.Ground;
 import com.realstate.entities.Owner;
