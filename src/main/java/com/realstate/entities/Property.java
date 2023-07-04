@@ -1,11 +1,12 @@
 package com.realstate.entities;
 
 import com.realstate.entities.enuns.CurrentSituation;
+import com.realstate.service.IPTUTax;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public abstract class Property {
+public abstract class Property implements IPTUTax {
     private Integer block;
     private String batch;
     private BigDecimal saleValue;

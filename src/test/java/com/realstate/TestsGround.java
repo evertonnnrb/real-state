@@ -30,4 +30,9 @@ public class TestsGround {
 
     }
 
+    @Test
+    public void testTaxOfIPTU(){
+        System.out.println(ground.calculateIPTU(ground.getSaleValue(), BigDecimal.valueOf(0.06)));
+    }
+
 }
